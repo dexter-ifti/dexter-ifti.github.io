@@ -4,8 +4,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: full; */
-    background: #212121 url(https://images.unsplash.com/photo-1527190997915-67ce3b53cc58?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8ODN8fHxlbnwwfHx8fHw%3D) fixed ;
-    color: #fff;
+    /* background: #212121 url(https://images.unsplash.com/photo-1527190997915-67ce3b53cc58?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8ODN8fHxlbnwwfHx8fHw%3D) fixed ;
+    color: #fff; */
+    background: linear-gradient(90deg, rgba(86,9,121,1) 3%, rgba(0,212,255,1) 37%, rgba(2,0,36,1) 85%, rgba(2,0,36,1) 100%);
 }
 h2#name {
     color:cadetblue;
