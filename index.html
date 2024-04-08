@@ -1,23 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header>
-      <img id="pic1" src="1705842075-178.162.222.161.png" alt="Profile picture" height="99" width="80">
-      <span><h2 id="name">Taha Iftikhar</h2></span>
-    </header>
-    <ul>
-      <h2 id="About">About</h2>
-      <p>My name is Taha Iftikhar , a 2 <sup>nd</sup> year undergrad student. Currently I was doing DSA but suddenly college implemented Front End Development in the curriculam so i decided to do it also. First I learnt HTML from Chai aur Code and Now I'm learning CSS by making this Portfolio. I've less interest in Design so i'm feeling little bored but i'll do cover css one level above basics</p>
-      <li><a href="./Skill" target="_blank">Skill</a></li>
-      <li><a href="./hobbies" target="_blank">Hobbies</a></li>
-      <li><a href="./Education" target="_blank">Education</a></li>
-      <li><a href="./contact" target="_blank">Contact Us</a></li>
-    </ul>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="button_style.css">
+  <style>
+    @font-face {
+      font-family: 'Open Sans Regular';
+      font-style: normal;
+      font-weight: 400;
+      src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-regular.woff');
+    }
+  </style>
+  <style>
+    @font-face {
+      font-family: 'Open Sans Bold';
+      font-style: normal;
+      font-weight: 800;
+      src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/OpenSans-Bold.woff');
+    }
+  </style>
+  <style>
+    @font-face {
+      font-family: 'Open Sans ExtraBold';
+      font-style: normal;
+      font-weight: 800;
+      src: url('chrome-extension://gkkdmjjodidppndkbkhhknakbeflbomf/fonts/open_sans/open-sans-v18-latin-800.woff');
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>
+      <h2 id="name">Taha Iftikhar</h2>
+    </h1>
+    <img id="pic1" src="1705842075-178.162.222.161.png" alt="Profile picture" height="99" width="80">
+  </header>
+  <ul>
+    <h2 id="About">About</h2>
+    <p>My name is Taha Iftikhar , a 2 <sup>nd</sup> year undergrad student. Currently I was doing DSA but suddenly
+      college implemented Front End Development in the curriculam so i decided to do it also. First I learnt HTML from
+      Chai aur Code and Now I'm learning CSS by making this Portfolio. I've less interest in Design so i'm feeling
+      little bored but i'll do cover css one level above basics</p>
+
+
+    <a href="./projects.html">
+      <button style="font-size: large; font-weight: bold;">Projects</button>
+    </a>
+
+
+    <h2>Why Are You Here?
+      <span>....</span>
+    </h2>
+
+    <p>
+
+      I think you are here to get to know me. Best way is to start with my work.
+    </p>
+
+    <div class="button-container">
+      <a href="./Skill" target="_blank">
+          <button s class="win7-btn" tyle="font-size: large; font-weight: bold;">Skills</button>
+        </a>
+      <a href="./Coding_profiles.html" target="_blank">
+          <button s class="win7-btn" tyle="font-size: large; font-weight: bold;">Coding Profiles</button>
+        </a>
+      <a href="./Education" target="_blank">
+          <button sty class="win7-btn" le="font-size: large; font-weight: bold;">Education</button>
+        </a>
+      <a href="./contact" target="_blank">
+          <button s class="win7-btn" tyle="font-size: large; font-weight: bold;">Contact Us </button>
+        </a>
+    </div>
+  </ul>
+</body>
+
 </html>
