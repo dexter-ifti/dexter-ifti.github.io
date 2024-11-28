@@ -1,0 +1,30 @@
+      @import url("https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+body {
+    font-family: victor mono;
+    background: #111111;
+    color: #e7e7e7;
+    margin: 10px;
+    padding: 10px;
+}
+
+img {
+    border-radius: 50%;
+    border: 1px solid white;
+}
+
+span {
+    color: #c15f03;
+}
+
+button {
+    margin: 3px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    gap: 10px;
+}
