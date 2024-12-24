@@ -8,6 +8,7 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="/style/style.css" />
   <link rel="stylesheet" href="/style/button_style.css">
+  <link rel="stylesheet" href="/style/skills_style.css">
   <style>
     @font-face {
       font-family: 'Open Sans Regular';
@@ -35,21 +36,32 @@
 </head>
 
 <body>
-  <header>
-    <h1>
-      <h2 id="name">Taha Iftikhar</h2>
-    </h1>
-    <img id="pic1" src="/assests/taha.png" alt="Profile picture" width="200px">
+  <header class="header">
+    <nav class="nav-container">
+      <h1 class="logo">Taha <span class="accent">Iftikhar</span></h1>
+      <div class="social-links">
+        <a href="https://www.linkedin.com/in/ifti-taha/" target="_blank" class="social-link"><span>LinkedIn</span></a>
+        <a href="https://github.com/dexter-ifti" target="_blank" class="social-link">GitHub</a>
+        <a href="https://leetcode.com/ifti_taha/" target="_blank" class="social-link"><span>LeetCode</span></a>
+        <a href="https://codeforces.com/profile/ifti_taha" target="_blank" class="social-link">CodeForces</a>
+      </div>
+    </nav>
+    <div style="margin-left: 6px; margin-top: 5px;">
+      <img id="pic1" src="/assests/taha.png" alt="Profile picture" width="200px">
+    </div>
   </header>
-  <ul>
+  <ul style="margin-left: 10px; margin-right: 10px;">
     <!-- <h2 id="About">About</h2> -->
     <p>Welcome to my Home Page</p>
     <h1 class="highlight">About Me</h1>
     <p>
-      I'm a passionate <span class="highlight">Computer Science</span> student at Integral University, Lucknow, currently
+      I'm a passionate <span class="highlight">Computer Science</span> student at Integral University, Lucknow,
+      currently
       pursuing my B.Tech with an impressive CGPA of 9.7/10. My technical journey is driven by a deep enthusiasm for web
-      development, with a strong focus on <span class="highlight">full-stack technologies</span>. I specialize in creating
-      robust web applications using technologies like <span class="highlight">ReactJS, ExpressJS, MongoDB, and Cloudflare
+      development, with a strong focus on <span class="highlight">full-stack technologies</span>. I specialize in
+      creating
+      robust web applications using technologies like <span class="highlight">ReactJS, ExpressJS, MongoDB, and
+        Cloudflare
         Workers</span>.
     </p>
     <p>
@@ -57,42 +69,47 @@
       weekly contests. My technical skills span across <span class="highlight">JavaScript, Java, and C</span>, with
       expertise in frontend frameworks, backend development, and database management. Beyond coding, I'm the <span
         class="highlight">Head of Code Club</span> at my university and serve as the <span class="highlight">Campus
-        Ambassador for HackerEarth</span>, demonstrating my commitment to fostering technological innovation and community
+        Ambassador for HackerEarth</span>, demonstrating my commitment to fostering technological innovation and
+      community
       engagement.
     </p>
     <p>
       My project portfolio reflects my passion for creating efficient, secure, and user-friendly applications. From
-      developing a <span class="highlight">Paytm-like payment app with robust transaction management to building a dynamic blog platform using</span>
-      cutting-edge technologies, I continuously push the boundaries of web development. I'm passionate about writing clean,
+      developing a <span class="highlight">Paytm-like payment app with robust transaction management to building a
+        dynamic blog platform using</span>
+      cutting-edge technologies, I continuously push the boundaries of web development. I'm passionate about writing
+      clean,
       maintainable code and always eager to learn and embrace new technological challenges.
     </p>
-    
-    
+
+
     <h2>Why Are You Here?
       <span>....</span>
     </h2>
-    
+
     <p>
-      
+
       I think you are here to get to know me. Best way is to start with my Projects and Skills.
     </p>
-    
-    <div class="button-container">
-      <a href="/pages/Projects.html">
-        <button class="win7-btn" style="font-size: large; font-weight: bold;">Projects</button>
-      </a>
-      <a href="/pages/Skill.html">
-        <button class="win7-btn" style="font-size: large; font-weight: bold;">Skills</button>
-      </a>
-      <a href="/pages/Stats.html">
-        <button class="win7-btn" style="font-size: large; font-weight: bold;">Coding Stats</button>
-      </a>
-      <a href="/pages/Education.html">
-        <button class="win7-btn" style="font-size: large; font-weight: bold;">Education</button>
-      </a>
-      <a href="/pages/Contact.html">
-        <button class="win7-btn" style="font-size: large; font-weight: bold;">Contact Me </button>
-      </a>
+
+    <div style="margin-top: 15px;">
+      <div class="button-container">
+        <a href="/pages/Projects.html">
+          <button class="win7-btn" style="font-size: large; font-weight: bold;">Projects</button>
+        </a>
+        <a href="/pages/Skill.html">
+          <button class="win7-btn" style="font-size: large; font-weight: bold;">Skills</button>
+        </a>
+        <a href="/pages/Stats.html">
+          <button class="win7-btn" style="font-size: large; font-weight: bold;">Coding Stats</button>
+        </a>
+        <a href="/pages/Education.html">
+          <button class="win7-btn" style="font-size: large; font-weight: bold;">Education</button>
+        </a>
+        <a href="/pages/Contact.html">
+          <button class="win7-btn" style="font-size: large; font-weight: bold;">Contact Me </button>
+        </a>
+      </div>
     </div>
   </ul>
 </body>
